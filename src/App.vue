@@ -1,16 +1,21 @@
 <template>
   <div id="app">
+    <HeroJumbotrone>
+      
+    </HeroJumbotrone>
     <TitleExercise></TitleExercise>
   </div>
 </template>
 
 <script>
 import TitleExercise from './components/TitleExercise.vue'
+import HeroJumbotrone from './components/HeroJumbotrone.vue'
 
 export default {
   name: 'App',
   components: {
-    TitleExercise
+    TitleExercise,
+    HeroJumbotrone,
   }
 }
 </script>
